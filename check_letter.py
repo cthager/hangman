@@ -1,4 +1,4 @@
-def Scanner(word, letter):
+def check(word, letter):
   if letter in word:
     return True
   else:
