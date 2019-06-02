@@ -1,11 +1,11 @@
 import word_picker
 import check_letter
 import update_status
-word_picker() 
+hangman()
 win = false
 lose = false
 while not (win or lose):
-  check_letter()
+  correct_guess = check()
   win = update_win()
   lose = update_lose()
   
